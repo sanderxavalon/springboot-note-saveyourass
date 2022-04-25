@@ -19,6 +19,7 @@
 
 	<modules>
 		<module>springboot-springmvc-restful-uploadfile</module>
+		<module>springboot-springmvc-restful</module>
 	</modules>
 
 
