@@ -9,10 +9,21 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springboot-springmvc-restful</artifactId>
+    <artifactId>springboot-orm-mybatis</artifactId>
 
-    <name>springboot-springmvc-restful</name>
-
+    <name>springboot-orm-mybatis</name>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.20</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>

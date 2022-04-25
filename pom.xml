@@ -20,6 +20,7 @@
 	<modules>
 		<module>springboot-springmvc-restful-uploadfile</module>
 		<module>springboot-springmvc-restful</module>
+		<module>springboot-orm-jpa</module>
 	</modules>
 
 
